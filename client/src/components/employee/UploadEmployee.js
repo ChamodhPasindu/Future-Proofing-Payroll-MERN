@@ -83,7 +83,7 @@ class UploadEmployee extends Component{
                                     <div className="card">
                                         <div className="card-header">
                                             <h4 className="text-danger">*Select a valid excel file</h4>
-                                            <p className="btn-primary btn-sm mt-3 ml-2 push-download" onClick={this.downloadTemplate.bind(this)}><i className="fa fa-download mr-3 ml-1"></i>Download Upload Template</p>
+                                            <p className="btn-warning btn-sm mt-3 ml-2 push-download" onClick={this.downloadTemplate.bind(this)}><i className="fa fa-download mr-3 ml-1"></i>Download Upload Template</p>
                                         </div>
                                         <div className="card-body">
                                             <form onSubmit={this.onSubmit}>
@@ -100,7 +100,7 @@ class UploadEmployee extends Component{
                                                 <div className="text-center">
                                                     <Button
                                                     type="submit"
-                                                    classnameItems="btn-primary btn-lg loading"
+                                                    classnameItems="btn-success btn-lg loading"
                                                     btnName="Upload Record"
                                                     />
                                                 </div>

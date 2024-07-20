@@ -132,7 +132,7 @@ export class AllTimeSingle extends PureComponent {
                     <div className="mx-auto text-center">
                       <Button
                         type="submit"
-                        classnameItems="btn-info btn-lg"
+                        classnameItems="btn-success btn-lg"
                         btnName="Get payslip"
                       />
                       <Link

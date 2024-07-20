@@ -6,7 +6,7 @@ const EmployeeMonthYear = () => (
     <div className="card-body mx-auto">
       <Link
         to="/payroll/all/employeemonthyear"
-        className="btn btn-lg btn-primary"
+        className="btn btn-lg btn-warning"
       >
         Monthly Employee Records
       </Link>

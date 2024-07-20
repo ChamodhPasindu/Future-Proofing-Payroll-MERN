@@ -112,7 +112,7 @@ class AddRole extends Component {
                   <div className="text-center">
                     <Button
                       type="submit"
-                      classnameItems="btn-info btn-lg"
+                      classnameItems="btn-warning btn-lg"
                       btnName="Assign Role"
                     />
                   </div>

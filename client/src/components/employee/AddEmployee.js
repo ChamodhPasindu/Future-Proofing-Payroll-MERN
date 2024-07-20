@@ -118,7 +118,7 @@ class AddEmployee extends Component {
                   <div className="card-header">
                     <h4 className="justify-content-center text-danger">
                       *All fields are required
-                      <p className="btn-primary btn-lg mt-3"><Link to="/employee/upload" className="to-upload">Upload Employee Records</Link></p>
+                      <p className="btn-warning btn-lg mt-3"><Link to="/employee/upload" className="to-upload">Upload Employee Records</Link></p>
                     </h4>
                   </div>
                   <div className="card-body">
@@ -249,7 +249,7 @@ class AddEmployee extends Component {
                       <div className="text-center">
                         <Button
                           type="submit"
-                          classnameItems="btn-primary btn-lg"
+                          classnameItems="btn-success btn-lg"
                           btnName="Add Employee"
                         />
                       </div>

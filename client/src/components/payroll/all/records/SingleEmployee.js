@@ -89,7 +89,7 @@ class SingleEmployee extends Component {
                     <div className="text-center mx-auto">
                       <Button
                         type="submit"
-                        classnameItems="btn-info btn-lg"
+                        classnameItems="btn-success btn-lg"
                         btnName="Get payslips"
                       />
 

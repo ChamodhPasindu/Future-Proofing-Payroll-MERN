@@ -112,7 +112,7 @@ class AddLevelForm extends Component {
               />
 
               <div className="text-center">
-                <Button classnameItems="btn-primary btn-lg" type="submit" btnName="Add Level" />         
+                <Button classnameItems="btn-success btn-lg" type="submit" btnName="Add Level" />         
               </div>
             </form>
           </div>

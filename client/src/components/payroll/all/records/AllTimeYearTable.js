@@ -36,7 +36,7 @@ const AllTimeYearTable = ({ payslips }) => {
             <div className="live-search">
               <ReactHTMLTableToExcel
                 id="test-table-xls-button"
-                className="download-table-xls-button btn btn-lg btn-primary mt-4 mb-4"
+                className="download-table-xls-button btn btn-lg btn-success mt-4 mb-4"
                 table="table-to-xls"
                 filename={"All_employee_yearly_" + payslips[0].presentYear}
                 sheet="Payroll with pension"

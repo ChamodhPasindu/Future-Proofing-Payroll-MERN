@@ -141,7 +141,7 @@ class EditLevel extends Component {
                     <div className="text-center">
                       <button
                         type="submit"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-success btn-lg"
                         tabIndex="4"
                       >
                         Edit Level

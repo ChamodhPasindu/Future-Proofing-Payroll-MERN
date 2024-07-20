@@ -66,7 +66,7 @@ class Pension extends PureComponent {
             <Link to="/payroll/all" className="btn btn-lg btn-warning mb-4">Back</Link>
             <ReactHTMLTableToExcel
                 id="test-table-xls-button"
-                className="download-table-xls-button btn btn-lg btn-primary mb-4 ml-3"
+                className="download-table-xls-button btn btn-lg btn-success mb-4 ml-3"
                 table="table-to-xls"
                 filename="payroll_pension"
                 sheet="employee pension"

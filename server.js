@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const path = require('path');
 const cors = require('cors');
-// const redis = require('redis');
 
 const users = require('./routes/api/users');
 const level = require('./routes/api/levels');
@@ -63,13 +62,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const PORT = process.env.PORT || 6000;
-// const REDIS_PORT = process.env.REDIS_PORT || 6379;
-
-// const client = redis.createClient(REDIS_PORT);
-
-// client.on('connect', () => {
-//   console.log(`Redis coonected on port ${REDIS_PORT}`);
-// });
 
 app.listen(PORT, () => {
   console.log(`App is running on port ${PORT}`);

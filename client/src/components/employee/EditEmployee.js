@@ -293,7 +293,7 @@ class EditEmployee extends Component {
                       </fieldset>
 
                       <div className="text-center">
-                        <Button classnameItems="btn-primary btn-lg" btnName="Edit Employee" type="submit" />
+                        <Button classnameItems="btn-success btn-lg" btnName="Edit Employee" type="submit" />
                         <Link
                           to="/employee/all"
                           className="btn btn-lg btn-warning ml-3"

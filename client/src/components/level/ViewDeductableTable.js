@@ -31,6 +31,10 @@ class ViewDeductableTable extends Component {
 
   render() {
     const { levels } = this.props;
+    
+    if (!Array.isArray(levels)) {
+      return <div>Loading...</div>; // or any appropriate fallback UI
+    }
 
     const DeductableContainer = levels.map(level => (
       <div

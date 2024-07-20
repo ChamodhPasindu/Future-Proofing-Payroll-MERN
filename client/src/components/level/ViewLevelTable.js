@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { formatMoney } from '../common/Utilities';
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import { deleteLevel } from '../../actions/levelActions';
 import { confirmAlert } from 'react-confirm-alert';
 import { toast } from 'react-toastify';
@@ -64,12 +64,14 @@ class ViewLevelTable extends Component {
     const { levels } = this.props;
     const { currentPage, levelPerPage } = this.state;
 
+    // Ensure levels is an array
+    if (!Array.isArray(levels)) {
+      return <div>Loading...</div>; // or any appropriate fallback UI
+    }
+
     const indexOfLastLevel = currentPage * levelPerPage;
     const indexOfFirstLevel = indexOfLastLevel - levelPerPage;
-    const currentLevel = levels.slice(
-      indexOfFirstLevel,
-      indexOfLastLevel
-    );
+    const currentLevel = levels.slice(indexOfFirstLevel, indexOfLastLevel);
     let paginateVisibility = parseInt(levelPerPage);
 
     let recordGroup = [
@@ -78,7 +80,6 @@ class ViewLevelTable extends Component {
       { name: '20', _id: '20' },
       { name: '30', _id: '30' },
     ];
-
     const levelTableContainer = currentLevel.map((level) => (
       <tr key={level._id}>
         <td>{level.name}</td>
@@ -155,9 +156,9 @@ class ViewLevelTable extends Component {
   }
 }
 
-// ViewLevelTable.proptypes = {
-//   levels: PropTypes.array.isRequired,
-//   deleteLevel: PropTypes.func.isRequired
-// };
+ViewLevelTable.propTypes = {
+  levels: PropTypes.array.isRequired,
+  deleteLevel: PropTypes.func.isRequired
+};
 
 export default connect(null, { deleteLevel })(ViewLevelTable);

@@ -71,7 +71,7 @@ class AllEmployeeTable extends Component {
                 </Link>
                 <ReactHTMLTableToExcel
                   id="test-table-xls-button"
-                  className="download-table-xls-button btn btn-lg btn-primary mt-4 mb-4 ml-3"
+                  className="download-table-xls-button btn btn-lg btn-success mt-4 mb-4 ml-3"
                   table="table-to-xls"
                   filename={"All_employee_yearly_"+payroll[0].presentYear}
                   sheet="Payroll with pension"

@@ -115,7 +115,7 @@ class AddBonusForm extends Component {
         />
 
         <div className="text-center">
-          <button type="submit" className="btn btn-primary btn-lg" ref="addBtn" tabIndex="4">
+          <button type="submit" className="btn btn-success btn-lg" ref="addBtn" tabIndex="4">
             Add Bonus {" "}
           </button>
         </div>

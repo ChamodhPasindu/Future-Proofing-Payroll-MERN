@@ -36,7 +36,11 @@ class ViewBonusTable extends Component {
   render() {
     const { levels } = this.props;
 
-    const bonusTableContainer = levels.map(level => (
+    if (!Array.isArray(levels)) {
+      return <div>Loading...</div>; // or any appropriate fallback UI
+    }
+
+    const bonusTableContainer = levels?.map(level => (
       <div
         key={level._id}
         className="col-md-4 mx-auto card card-primary mt-2 bg-light"

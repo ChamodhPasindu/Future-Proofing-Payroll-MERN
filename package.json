@@ -10,10 +10,6 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akinlekan28/payroll.git"
-  },
   "keywords": [
     "payroll",
     "reactjs",
@@ -21,12 +17,6 @@
     "mongodb",
     "expressjs"
   ],
-  "author": "akintola olalekan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/akinlekan28/payroll/issues"
-  },
-  "homepage": "https://github.com/akinlekan28/payroll#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.5.5",
     "bcryptjs": "^2.4.3",

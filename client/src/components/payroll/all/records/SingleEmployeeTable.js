@@ -78,7 +78,7 @@ class SingleEmployeeTable extends Component {
                 />
                 <ReactHTMLTableToExcel
                   id="test-table-xls-button"
-                  className="download-table-xls-button btn btn-lg btn-primary mb-4"
+                  className="download-table-xls-button btn btn-lg btn-success mb-4"
                   table="table-to-xls"
                   filename={payrollRecords[0].name + " year_slip"}
                   sheet="Payroll with pension"

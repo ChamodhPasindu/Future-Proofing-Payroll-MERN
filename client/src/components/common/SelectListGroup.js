@@ -12,6 +12,10 @@ const SelectListGroup = ({
   label
 }) => {
 
+  if (!Array.isArray(options)) {
+    options = [];
+  }
+  
   const selectOptions = options.map(option => (
     <option key={option._id} value={option._id}>
       {option.name}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Year = () => (
   <div className="card col-md-4">
     <div className="card-body mx-auto">
-      <Link to="/payroll/all/year" className="btn btn-lg btn-primary">
+      <Link to="/payroll/all/year" className="btn btn-lg btn-warning">
         Yearly Employee Records
       </Link>
     </div>
