@@ -88,7 +88,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span> {formatMoney(payroll.basic)}
+                        <span>LKR</span> {formatMoney(payroll.basic)}
                       </strong>
                     </td>
                   </tr>
@@ -99,7 +99,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                       </td>
                       <td>
                         <strong>
-                          <span>&#8358;</span> {formatMoney(bonus.amount)}
+                          <span>LKR</span> {formatMoney(bonus.amount)}
                         </strong>
                       </td>
                     </tr>
@@ -111,7 +111,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                       </td>
                       <td>
                         <strong>
-                          <span>&#8358;</span> {formatMoney(extraEarningItem.amount)}
+                          <span>LKR</span> {formatMoney(extraEarningItem.amount)}
                         </strong>
                       </td>
                     </tr>
@@ -133,7 +133,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td className="text-danger">
                       <strong>
-                        <span>&#8358;</span> {formatMoney(payroll.tax)}
+                        <span>LKR</span> {formatMoney(payroll.tax)}
                       </strong>
                     </td>
                   </tr>
@@ -143,7 +143,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td className="text-danger">
                       <strong>
-                        <span>&#8358;</span> {formatMoney(payroll.pension)}
+                        <span>LKR</span> {formatMoney(payroll.pension)}
                       </strong>
                     </td>
                   </tr>
@@ -154,7 +154,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                       </td>
                       <td>
                         <strong className="text-danger">
-                          <span>&#8358;</span>{" "}
+                          <span>LKR</span>{" "}
                           {formatMoney(deductable.amount)}
                         </strong>
                       </td>
@@ -167,7 +167,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                       </td>
                       <td>
                         <strong className="text-danger">
-                          <span>&#8358;</span> {formatMoney(extraDeductionItem.amount)}
+                          <span>LKR</span> {formatMoney(extraDeductionItem.amount)}
                         </strong>
                       </td>
                     </tr>
@@ -191,7 +191,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>{" "}
+                        <span>LKR</span>{" "}
                         {formatMoney(payroll.grossEarning)}
                       </strong>
                     </td>
@@ -202,7 +202,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td>
                       <strong className="text-danger">
-                        <span>&#8358;</span>{" "}
+                        <span>LKR</span>{" "}
                         {formatMoney(payroll.totalDeductions)}
                       </strong>
                     </td>
@@ -213,7 +213,7 @@ const MonthlySlipRecordTable = ({payroll}) => {
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span> {formatMoney(payroll.netPay)}
+                        <span>LKR</span> {formatMoney(payroll.netPay)}
                       </strong>
                     </td>
                   </tr>

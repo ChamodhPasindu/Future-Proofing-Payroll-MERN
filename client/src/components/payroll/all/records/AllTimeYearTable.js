@@ -64,31 +64,31 @@ const AllTimeYearTable = ({ payslips }) => {
                       <td>{payslip.name}</td>
                       <td>{payslip.presentMonth}</td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.basic)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.grossEarning)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.consolidationRelief)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.pension)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.taxableIncome)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.tax)}
                       </td>
                       <td>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(payslip.netPay)}
                       </td>
                     </tr>
@@ -102,43 +102,43 @@ const AllTimeYearTable = ({ payslips }) => {
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(basicSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(grossSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(cRSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(pensionSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(taxableIncomeSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(taxPayableSum)}
                       </strong>
                     </td>
                     <td>
                       <strong>
-                        <span>&#8358;</span>
+                        <span>LKR</span>
                         {formatMoney(monthlyNetPaySum)}
                       </strong>
                     </td>

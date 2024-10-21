@@ -103,7 +103,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td>
                             <strong>
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.basic)}
                             </strong>
                           </td>
@@ -115,7 +115,7 @@ class PayslipTable extends PureComponent {
                             </td>
                             <td>
                               <strong>
-                                <span>₦</span>{' '}
+                                <span>LKR</span>{' '}
                                 {formatMoney(bonus.amount)}
                               </strong>
                             </td>
@@ -128,7 +128,7 @@ class PayslipTable extends PureComponent {
                             </td>
                             <td>
                               <strong>
-                                <span>₦</span>{' '}
+                                <span>LKR</span>{' '}
                                 {formatMoney(extraEarningItem.amount)}
                               </strong>
                             </td>
@@ -151,7 +151,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td className="text-danger">
                             <strong>
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.tax)}
                             </strong>
                           </td>
@@ -162,7 +162,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td className="text-danger">
                             <strong>
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.pension)}
                             </strong>
                           </td>
@@ -175,7 +175,7 @@ class PayslipTable extends PureComponent {
                               </td>
                               <td>
                                 <strong className="text-danger">
-                                  <span>₦</span>{' '}
+                                  <span>LKR</span>{' '}
                                   {formatMoney(deductable.amount)}
                                 </strong>
                               </td>
@@ -191,7 +191,7 @@ class PayslipTable extends PureComponent {
                             </td>
                             <td>
                               <strong className="text-danger">
-                                <span>₦</span>{' '}
+                                <span>LKR</span>{' '}
                                 {formatMoney(
                                   extraDeductionItem.amount
                                 )}
@@ -220,7 +220,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td>
                             <strong>
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.grossEarning)}
                             </strong>
                           </td>
@@ -231,7 +231,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td>
                             <strong className="text-danger">
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.totalDeductable)}
                             </strong>
                           </td>
@@ -242,7 +242,7 @@ class PayslipTable extends PureComponent {
                           </td>
                           <td>
                             <strong>
-                              <span>₦</span>{' '}
+                              <span>LKR</span>{' '}
                               {formatMoney(payroll.netPay)}
                             </strong>
                           </td>

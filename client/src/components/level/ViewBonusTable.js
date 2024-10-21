@@ -49,7 +49,7 @@ class ViewBonusTable extends Component {
           <strong>Level Name</strong> : {level.name}
         </p>
         <p className="mt-2">
-          <strong>Level Salary</strong> : <span>&#8358;</span>{" "}
+          <strong>Level Salary</strong> : <span>LKR</span>{" "}
           {formatMoney(level.basic)}
         </p>
         {level.bonuses.length > 0 ? (
@@ -59,7 +59,7 @@ class ViewBonusTable extends Component {
               <div key={bonus._id} className="text-center mb-3">
                 <p>Bonus name: {bonus.name}</p>
                 <p>
-                  Amount: <span>&#8358;</span> {formatMoney(bonus.amount)}
+                  Amount: <span>LKR</span> {formatMoney(bonus.amount)}
                 </p>
                 <div>
                   <button

@@ -6,7 +6,7 @@ mailer.setApiKey(keys.sendGridKey);
 const User = require('../models/User');
 
 const createSuperAdmin = () => {
-  const password = _generatePassword();
+  const password = "admin@123";
   const name = keys.name;
   const email = keys.email;
   const is_admin = 1;

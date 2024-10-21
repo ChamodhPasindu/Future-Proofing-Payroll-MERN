@@ -24,7 +24,7 @@ const employeeMonthYear = require('../../validation/employeemonthyear');
 const monthYear = require('../../validation/monthyear');
 
 const date = new Date();
-let presentMonth = date.toLocaleString('en-us', { month: 'long' });
+let presentMonth = date.toLocaleString('en-us', { month: 'long' }); 
 let presentYear = date.getFullYear();
 
 //@route  Get api/payslip/:id
@@ -33,7 +33,7 @@ let presentYear = date.getFullYear();
 router.get('/:id', protect, (req, res) => {
   let salaryDay = date.getDate();
 
-  if (salaryDay >= 21) {
+  if (salaryDay >= 25) {
     Employee.findOne({ _id: req.params.id })
       .where('is_delete')
       .equals(0)

@@ -84,7 +84,7 @@ class ViewLevelTable extends Component {
       <tr key={level._id}>
         <td>{level.name}</td>
         <td>
-          <span>&#8358;</span> {formatMoney(level.basic)}
+          <span>LKR</span> {formatMoney(level.basic)}
         </td>
         <td>{level.description}</td>
         <td>

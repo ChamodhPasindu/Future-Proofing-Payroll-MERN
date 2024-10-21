@@ -56,7 +56,7 @@ class ViewException extends Component {
           <strong>Employee name</strong>: {exceptionItem.name}
         </p>
         <p className="mt-2">
-          <strong>Amount</strong> : <span>&#8358;</span>{" "}
+          <strong>Amount</strong> : <span>LKR</span>{" "}
           {formatMoney(exceptionItem.amount)}
         </p>
         <div className="text-center">

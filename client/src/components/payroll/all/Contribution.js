@@ -59,13 +59,13 @@ class Contribution extends PureComponent {
                         <tr key={payrollItem._id}>
                             <td>{payrollItem.name}</td>
                             <td>{payrollItem.designation}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.pension.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.pension.toFixed(2))}</td>
                         </tr>
                     ))}
                     <tr>
                         <td><strong>Total Sum</strong></td>
                         <td><strong>---</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.pensionSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.pensionSum.toFixed(2))}</strong></td>
                     </tr>
                 </tbody>
               </table>

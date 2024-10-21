@@ -63,7 +63,7 @@ class ViewOtherException extends Component {
           {oneoffpaymmentItem.costType === "income" ? "Income" : "Deduction"}
         </p>
         <p className="mt-2">
-          <strong>Amount</strong> : <span>&#8358;</span>{" "}
+          <strong>Amount</strong> : <span>LKR</span>{" "}
           {formatMoney(oneoffpaymmentItem.amount)}
         </p>
         <p className="mt-2">

@@ -109,13 +109,13 @@ class WithPension extends PureComponent {
                         <tr key={payrollItem._id} id="search-item">
                             <td>{payrollItem.name}</td>
                             <td>{payrollItem.designation}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.basic.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.grossEarning.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.consolidationRelief.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.pension.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.taxableIncome.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.tax.toFixed(2))}</td>
-                            <td><span>&#8358;</span>{formatMoney(payrollItem.netPay.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.basic.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.grossEarning.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.consolidationRelief.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.pension.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.taxableIncome.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.tax.toFixed(2))}</td>
+                            <td><span>LKR</span>{formatMoney(payrollItem.netPay.toFixed(2))}</td>
                             <td>{payrollItem.bankName}</td>
                             <td>{payrollItem.accountNumber}</td>
                             <td>{payrollItem.pfaName}</td>
@@ -125,13 +125,13 @@ class WithPension extends PureComponent {
                     <tr>
                         <td><strong>Total Sum</strong></td>
                         <td><strong>---</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.basicSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.grossSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.consolidationReliefSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.pensionSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.taxableIncomeSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.taxSum.toFixed(2))}</strong></td>
-                        <td><strong><span>&#8358;</span>{formatMoney(payrolls.netSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.basicSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.grossSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.consolidationReliefSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.pensionSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.taxableIncomeSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.taxSum.toFixed(2))}</strong></td>
+                        <td><strong><span>LKR</span>{formatMoney(payrolls.netSum.toFixed(2))}</strong></td>
                     </tr>
                 </tbody>
               </table>

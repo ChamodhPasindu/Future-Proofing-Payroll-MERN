@@ -45,7 +45,7 @@ class ViewDeductableTable extends Component {
           <strong>Level Name</strong> : {level.name}
         </p>
         <p className="mt-2">
-          <strong>Level Salary</strong> : <span>&#8358;</span>{" "}
+          <strong>Level Salary</strong> : <span>LKR</span>{" "}
           {formatMoney(level.basic)}
         </p>
         {level.deductables.length > 0 ? (
@@ -55,7 +55,7 @@ class ViewDeductableTable extends Component {
               <div key={deductable._id} className="text-center mb-3">
                 <p>Deduction name: {deductable.name}</p>
                 <p>
-                  Amount: <span>&#8358;</span> {formatMoney(deductable.amount)}
+                  Amount: <span>LKR</span> {formatMoney(deductable.amount)}
                 </p>
                 <div>
                   <button
